@@ -16,6 +16,7 @@ Name     | Description | Enabled by default
 [container](docs/collector.container.md) | Container metrics |
 [dns](docs/collector.dns.md) | DNS Server |
 [hyperv](docs/collector.hyperv.md) | Hyper-V hosts |
+[aspnet](docs/collector.) | AspNet applications |
 [iis](docs/collector.iis.md) | IIS sites and applications |
 [logical_disk](docs/collector.logical_disk.md) | Logical disks, disk I/O | &#10003;
 [logon](docs/collector.logon.md) | User logon sessions |
