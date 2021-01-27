@@ -11,12 +11,12 @@ Name     | Description | Enabled by default
 ---------|-------------|--------------------
 [ad](docs/collector.ad.md) | Active Directory Domain Services |
 [adfs](docs/collector.adfs.md) | Active Directory Federation Services |
+[aspnet](docs/collector.) | AspNet applications |
 [cpu](docs/collector.cpu.md) | CPU usage | &#10003;
 [cs](docs/collector.cs.md) | "Computer System" metrics (system properties, num cpus/total memory) | &#10003;
 [container](docs/collector.container.md) | Container metrics |
 [dns](docs/collector.dns.md) | DNS Server |
 [hyperv](docs/collector.hyperv.md) | Hyper-V hosts |
-[aspnet](docs/collector.) | AspNet applications |
 [iis](docs/collector.iis.md) | IIS sites and applications |
 [logical_disk](docs/collector.logical_disk.md) | Logical disks, disk I/O | &#10003;
 [logon](docs/collector.logon.md) | User logon sessions |
