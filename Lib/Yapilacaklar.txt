@@ -1,0 +1,11 @@
+1- GO kurulumu yapilacak
+2- VSCODE kurulumu yapilacak
+3- VSCODE üzerinde Go for Visual Studio Code extension kurulacak
+4- https://github.com/prometheus-community/windows_exporter repo su indirilecek
+5- iis.go kodu aspnet.go olarak düzenlenecek
+6- Asagidaki komutlar ile derleme yapilacak
+	go get -u github.com/prometheus/promu
+	go get -u github.com/prometheus-community/windows_exporter
+	promu build -v
+7- Olusturdugumuz "aspnet" kütüphanesini kullanarak veri toplama isi baslatilacak
+	.\windows_exporter.exe --collectors.enabled="aspnet"
